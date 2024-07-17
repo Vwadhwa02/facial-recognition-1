@@ -2,7 +2,8 @@ import cv2
 import sys
 import uuid
 
-name = sys.argv[1] # name passed from command line argument
+name = sys.argv[1]
+#name=input('na ') # name passed from command line argument
 
 cam = cv2.VideoCapture(0)
 
